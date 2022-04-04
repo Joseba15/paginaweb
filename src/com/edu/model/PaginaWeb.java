@@ -9,9 +9,9 @@ public class PaginaWeb {
 	private LocalDateTime visita;
 	
 	
-	public PaginaWeb(String nombre) {
+	public PaginaWeb(String nombre,LocalDateTime visita) {
 		this.nombre = nombre;
-		this.visita = LocalDateTime.now();
+		this.visita =visita;
 	}
 
 
